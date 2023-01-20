@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+
+
+header {
+    background: url(imagenes/background.jpg);
+    height: 120vh;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    margin: 0 20px;
+}
+
+
+header ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.titular {
+    text-align:center;
+    margin-top: 35vh;
+   
+}
+
+.titular span {
+    color: darkorange;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.titular h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.titular a {
+    background: darkgoldenrod;
+    color: #fff;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+/* Seccion tarjetas */
+
+#ofrecimientos {
+    background: #0a0a0a;
+    padding-bottom: 70px
+}
+
+.titulo-tarjetas {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.titulo-tarjetas span {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.titulo-tarjetas h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+
+}
+
+.tarjeta {
+    text-align: center;
+    width: 25%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.tarjeta i {
+    height: 90px;
+    width: 90px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: inline-block;
+    color: #f36100;
+    line-height: 90px;
+    text-align: center;
+    transition: all 0.3s
+    
+}
+
+
+
+
+.tarjeta h3 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    color: grey;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+/*clases*/
+
+#clases-seccion {
+    background: #151515;
+    padding-bottom: 80px;
+}
+
+.titulo-clases {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.titulo-clases span {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.titulo-clases h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.contenedor-clases {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 18px;
+   justify-content: center;
+   margin-right: 15px;
+   margin-left: 15px;
+  
+
+}
+
+ 
+.items {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.cl-tit {
+    justify-content: center;
+}
+
+.items .cl-tit {
+    background: #0a0a0a;
+    position: relative;
+    padding: 10px 30px 26px 30px;
+    z-index: 1
+}
+
+.cl-tit span {
+    color: #f36100;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.cl-tit h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+#banner {
+    background: url(imagenes/gallery-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 650px;
+    
+}
+
+.banner-texto {
+    text-align: center;
+    padding-top: 30vh;
+    
+}
+
+.banner-texto h2 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px
+    
+}
+
+.banner-texto h3 {
+    font-size: 20px;
+    color: #c4c4c4;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.banner-texto a {
+    background: darkgoldenrod;
+    color: #fff;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+
+#nuestros-planes {
+    background: #151515;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.titulo-planes{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+.titulo-planes span {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.titulo-planes h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.contenedor-planes {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px); 
+    justify-content: center;
+    gap: 30px;
+}
+
+.item-planes {
+    text-align: center;
+    padding: 40px 30px 52px;
+    border: 1px solid #464646;
+    /*-webkit-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;*/
+    position: relative;
+    gap: 10px;
+}
+
+
+
+.item-planes h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    
+}
+
+.item-planes h3 {
+    text-align: center;
+    color: darkorange;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+
+.item-planes ul li  {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform:lowercase;
+    font-style:normal;
+    color: #fff;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    justify-content: center;
+    
+}
+
+.item-planes a {
+    background-color: darkgoldenrod;
+    padding: 10px 20px;
+    justify-content: center;
+    color: #151515;
+    text-transform: uppercase;
+    font-size: 15px;
+}
